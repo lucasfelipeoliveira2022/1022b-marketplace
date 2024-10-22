@@ -9,3 +9,16 @@ CREATE TABLE IF NOT EXISTS produtos(
 
 INSERT INTO produtos VALUES
 (1,'Iphone', 'Celular RUIM', 5000.50, 'https://m.media-amazon.com/images/I/61bK6PMOC3L._AC_UF1000,1000_QL80_.jpg');
+
+USE defaultdb;
+CREATE TABLE IF NOT EXISTS usuarios(
+    id BIGINT PRIMARY KEY auto_increment,
+    name VARCHAR(50),
+    email VARCHAR(50),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    update_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
+
+INSERT INTO defaultdb.usuarios (id, name, email, created_at, update_at) VALUES ('1', 'João Silva', '    joao.silva@email.com', '2024-10-21 12:00:00', '2024-10-21 12:00:00');
+INSERT INTO defaultdb.usuarios (id, name, email, created_at, update_at) VALUES ('2', 'Maria Oliveira', 'maria.oliveira@email.com', '2024-10-21 12:05:00', '2024-10-21 12:05:00');
+INSERT INTO defaultdb.usuarios (id, name, email, created_at, update_at) VALUES ('3', 'Carlos Pereira', 'carlos.pereira@email.com', '2024-10-21 12:10:00', '2024-10-21 12:10:00');
