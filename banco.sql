@@ -8,4 +8,4 @@ CREATE TABLE IF NOT EXISTS produtos(
 );
 
 INSERT INTO produtos VALUES
-(1,'Iphone', 'Celular RUIM', 5000.50, https://m.media-amazon.com/images/I/61bK6PMOC3L._AC_UF1000,1000_QL80_.jpg);
+(1,'Iphone', 'Celular RUIM', 5000.50, 'https://m.media-amazon.com/images/I/61bK6PMOC3L._AC_UF1000,1000_QL80_.jpg');
