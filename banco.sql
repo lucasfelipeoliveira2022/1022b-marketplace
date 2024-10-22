@@ -8,4 +8,4 @@ CREATE TABLE IF NOT EXISTS produtos(
 );
 
 INSERT INTO produtos VALUES
-(1,'Iphone', 'Celular RUIM', 5000.50, 'SEM IMAGEM');
+(1,'Iphone', 'Celular RUIM', 5000.50, 'https://http2.mlstatic.com/D_NQ_NP_896424-MLA71783367608_092023-O.webp');
