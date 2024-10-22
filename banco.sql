@@ -15,8 +15,8 @@ CREATE TABLE IF NOT EXISTS usuarios(
     id BIGINT PRIMARY KEY auto_increment,
     name VARCHAR(50),
     email VARCHAR(50),
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    update_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+    created_at TIMESTAMP,
+    update_at TIMESTAMP
 );
 
 INSERT INTO defaultdb.usuarios (id, name, email, created_at, update_at) VALUES ('1', 'João Silva', '    joao.silva@email.com', '2024-10-21 12:00:00', '2024-10-21 12:00:00');
