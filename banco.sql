@@ -19,6 +19,6 @@ CREATE TABLE IF NOT EXISTS usuarios(
     updated_at TIMESTAMP
 );
 
-INSERT INTO defaultdb.usuarios (id, name, email, created_at, updated_at) VALUES ('1', 'João Silva', '    joao.silva@email.com', '2024-10-21 12:00:00', '2024-11-21 12:00:00');
-INSERT INTO defaultdb.usuarios (id, name, email, created_at, updated_at) VALUES ('2', 'Maria Oliveira', 'maria.oliveira@email.com', '2024-10-21 12:05:00', '2024-11-21 12:05:00');
-INSERT INTO defaultdb.usuarios (id, name, email, created_at, updated_at) VALUES ('3', 'Carlos Pereira', 'carlos.pereira@email.com', '2024-10-21 12:10:00', '2024-11-21 12:10:00');
+INSERT INTO defaultdb.usuarios (id, name, email, created_at, updated_at) VALUES ('1', 'João Silva', '    joao.silva@email.com', '2024-10-21 12:00:00', '2024-11-22 13:00:00');
+INSERT INTO defaultdb.usuarios (id, name, email, created_at, updated_at) VALUES ('2', 'Maria Oliveira', 'maria.oliveira@email.com', '2024-10-21 12:05:00', '2024-11-23 14:05:00');
+INSERT INTO defaultdb.usuarios (id, name, email, created_at, updated_at) VALUES ('3', 'Carlos Pereira', 'carlos.pereira@email.com', '2024-10-21 12:10:00', '2024-11-24 15:10:00');
