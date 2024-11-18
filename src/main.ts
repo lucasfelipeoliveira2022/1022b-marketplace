@@ -85,6 +85,4 @@ app.post("/produtos",async(req,res)=>{
         console.log(e)
         res.status(500).send("Erro do servidor")
     }
-    
-    
 })
